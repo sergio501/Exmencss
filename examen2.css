@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: solid 1px;
+    display: flex;
+    justify-content:space-between ;
+    background-color: gold;
+    align-items: center;
+    padding: 10px;
+
+}
+#logo-empresa{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    
+}
+#logo{
+    height: 125px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+#empresa{
+    font-size: 50px;
+}
+nav .link-nav{
+    padding-right: 15px;
+    font-size: 30px;
+    text-decoration:none ;
+    color: black;
+    font-weight: bold;
+}
+nav .link-nav.hover{
+    color: deepskyblue;
+}
+
+#contenedor{
+    width: 80%;
+    background-color: aqua;
+    margin: 20px auto;
+    padding: 50px;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5px;
+    
+}
+.imsec1{
+    width: 50px;
+}
+
+#primeraseccion{
+    border: solid 1px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    columns: gap 3px;
+}
+#articulo1{
+    text-align: center;
+}
+.articulo1 p{
+    text-align: justify;
+}
+
+#segundaseccion{
+    border: solid 1px;
+    margin-top: 50px;
+    padding: 30px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.imsec3{
+    width: 50px;
+}
+
+#terceraseccion{
+    border: solid 1px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    columns: gap 3px;
+}
+#articulo3{
+    text-align: center;
+}
+#articuloseccion2{
+    text-align: center;
+}
+#articuloseccion p{
+    text-align: justify;
+    margin-top: 30px;
+
+}
+img footer{
+    width: 40px;
+}
+footer{
+    height: 100px;
+    background-color: chartreuse;
+    margin-top: 100px;
+
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
